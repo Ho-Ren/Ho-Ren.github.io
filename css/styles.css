@@ -78,22 +78,21 @@ body {
 }
 
 .project {
-	margin-top: 200px;
+	margin-top: 100px;
 }
 .skiplines {
 	margin-top: 300px;
 	overflow: hidden;
 }
 .contact {
-	margin-top: 200px;
+	margin-top: 300px;
 	overflow: hidden;
-    top: 0;
+    top: 10;
 }
 
 .contact-info {
 	margin-left: 100px;
 	margin-right: 100px;
-
     list-style-type: none;
 }
 #navbar {
