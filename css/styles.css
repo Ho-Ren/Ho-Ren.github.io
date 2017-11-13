@@ -3,10 +3,9 @@ body {
 	font-family: 'Nunito', sans-serif;
 	margin: 0;
 	padding: 0;
+	font-size: 100%
 }
-.container {
-	flex-wrap: wrap;
-}
+
 .center {
 	margin: auto;
 	width: 60%;
@@ -14,13 +13,11 @@ body {
 	text-align: center;
 	padding: 20x;
 }
-.menu {
-	width: 15%;
-}
 
-.item {	
-	width: 100%;
-	clear: both;
+.Ho-Ren {
+	font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: 0.025em;
 }
 .profile-pic img {
 	border-radius: 100%;
@@ -33,13 +30,10 @@ body {
 	border: 0.15em solid black;
 	display: block;
 	margin: 0 auto;
+	max-width: 100%
 }
 
-.Ho-Ren {
-	font-size: 2.5em;
-    font-weight: 600;
-    letter-spacing: 0.025em;
-}
+
 .hr {
 	margin-top: 50px;
 }
@@ -50,10 +44,9 @@ body {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	font-weight: 100;
-	letter-spacing: 0.01em;
-	line-height: 3em;
-	font-size: 1em;
+	font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: 0.025em;
 }
 
 
@@ -66,7 +59,9 @@ body {
 	/*padding: 20px;*/
 	overflow-x: hidden;
 }
-
+.project {
+	margin-top: 100px;
+}
 #background-wrap {
     bottom: 0;
 	left: 0;
@@ -77,9 +72,7 @@ body {
 	z-index: -1;
 }
 
-.project {
-	margin-top: 100px;
-}
+
 .skiplines {
 	margin-top: 300px;
 	overflow: hidden;
@@ -87,7 +80,6 @@ body {
 .contact {
 	margin-top: 300px;
 	overflow: hidden;
-    top: 10;
 }
 
 .contact-info {
@@ -260,5 +252,26 @@ li a:hover:not(.active) {
 	right: 50px;
 	top: -90px;
 }
+
+@media only screen and (max-width: 800px) {
+    .content {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .content {
+        font-size: .75em;
+    }
+}
+
+
+
 
 /*All custom CSS assets by Mark Bowley*/
